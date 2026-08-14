@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    min-width: 0;
+    overflow-x: hidden;
+    background: #ffffff;
+}
+
+.header {
+    width: min(90%, 1200px);
+    margin: 10px auto 0;
+    border-bottom: 2px solid #107e3e;
+}
+
+.navbar .container,
+.navbar .container-fluid {
+    min-width: 0;
+}
+
+.navbar-brand {
+    flex-shrink: 0;
+}
+
+.search-form {
+    width: 400px;
+    max-width: 100%;
+}
+
+.search-box {
+    width: 100%;
+}
+
+.search-input {
+    color: #c0fcd9;
+    background-color: #c0fcd9;
+}
+
+.input-group {
+    max-width: 100%;
+}
+
+.fa-naira-sign {
+    background-image: linear-gradient(135deg, #0B391B, #1F8A45);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.fa-magnifying-glass {
+    color: #63f7a1;
+}
+
+.fa-wifi {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #2ecc71;
+    background-color: #dcffeb;
+}
+
+.fa-moon {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #2ecc71;
+}
+
+input[type="search"]:focus,
+input.search-box:focus {
+    outline: none;
+    outline: 2px solid #2ecc71;
+    box-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
+    background-color: #dcffeb;
+}
+
+.nav-link {
+    padding: 10px 18px;
+    color: #198754;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #198754 !important;
+    border-bottom: 2px solid #1f7049;
+}
+
+.nav-link:hover {
+    background: #e9f7ef;
+    color: #198754;
+    border-radius: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991.98px) {
+    .header {
+        width: 95%;
+    }
+
+    .navbar .container {
+        gap: 10px;
+    }
+
+    .search-form {
+        width: min(400px, 100%);
+    }
+
+    .side-icon {
+        display: flex;
+        flex-shrink: 0;
+    }
+
+    .navbar-collapse {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+    .navbar-brand span {
+        font-size: 1rem;
+    }
+
+    .fa-naira-sign {
+        padding: 8px;
+    }
+
+    .search-form {
+        order: 3;
+        width: 100%;
+        flex-basis: 100%;
+        margin: 8px 0 !important;
+    }
+
+    .navbar .container {
+        flex-wrap: wrap;
+    }
+
+    .side-icon {
+        margin-left: auto;
+    }
+
+    .nav-link {
+        padding: 10px;
+    }
+
+    .nav-link.active {
+        border-bottom: 0;
+        background: #e9f7ef;
+        border-radius: 5px;
+    }
+}
+.price-comprisation {
+    width: min(90%, 1200px);
+    margin: 20px auto;
+    color: #107e3e;
+}
+
+.form-selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: min(90%, 1100px);
+    margin: 0 auto;
+}
+
+.select-1 {
+    flex: 1 1 250px;
+    min-width: 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    width: min(90%, 900px);
+    margin: 20px auto;
+}
+
+.price-card {
+    flex: 1 1 300px;
+    max-width: 400px;
+    min-width: 0;
+    background-color: #ffffff;
+    border: 1px solid #85eaa8 !important;
+}
+
+.fa-location-dot {
+    color: #1F8A45;
+}
+
+.progress-bar {
+    width: min(90%, 900px);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(219, 255, 219);
+    padding: 20px;
+}
+
+.progress-live-bar {
+    border-radius: 20px;
+}
+
+.higher {
+    color: #1F8A45;
+}
+
+@media (max-width: 767.98px) {
+    .price-comprisation {
+        width: 92%;
+    }
+
+    .form-selection {
+        width: 92%;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .select-1 {
+        width: 100%;
+        flex-basis: auto;
+    }
+
+    .cards {
+        width: 92%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .progress-bar {
+        width: 92%;
+    }
+}

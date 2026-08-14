@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="Compare.css">
+
+    <title>NaijaPrice</title>
+</head>
+<body>
+    <div class="header">
+    <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+        <a href="#" class="navbar-brand d-flex align-items-center me-5">
+            <i class="fa-solid fa-naira-sign fs-3 me-2"></i>
+            <span>NairaPrice</span>
+        </a>
+
+        <form class="d-flex mx-auto search-form" role="search">
+            <div class="input-group">
+              <span class="input-group-text">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+
+              <input type="search" class="form-control search-box" placeholder="Search, Items, markets...">
+            
+            </div>
+        </form>
+        <div class="side-icon">
+          <i class="fa-solid fa-wifi"></i> 
+          <i class="fa-regular fa-moon"></i> 
+        </div>
+        
+
+    </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg ">
+
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link"  href="index.html"><i class="fa-solid fa-border-all"></i> Market</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"aria-current="page" href="Compare.html"> <i class="fa-solid fa-chart-simple"></i> Compare</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Report.html"><i class="fa-regular fa-pen-to-square"></i> Report</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Profile.html"><i class="fa-regular fa-user"></i> Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Admin.html"><i class="fa-solid fa-shield"></i>  Admin</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </nav> 
+
+    </div>
+    
+    <h6 class="price-comprisation pt-4">
+        <span><i class="fa-solid fa-left-right"></i></span>
+        City Price Comparison</h6>
+    <div  class="form-selection">
+        <div class="select-1">
+        <h6>Item</h6>
+        <select class="form-select" aria-label="Default select example">
+        <option selected>Imported Rice (Thai)</option>
+        <option value="1">Local Rice (Ofada)</option>
+        <option value="2">Brown Beans (oloyin)</option>
+        <option value="3">Garri (White)</option>
+        <option value="4">Tomato Stew Base</option>
+        <option value="5">Palm Oil</option>
+        <option value="6">Petrol (PMS)</option>
+        <option value="7">Diesel (AGO)</option>
+        <option value="8">Kerosene (DPK)</option>
+        <option value="9">Cooking Gas (LPG)</option>
+        <option value="10">Cement</option>
+        <option value="11">Sugar</option>
+        <option value="12">Bread (Agege)</option>
+        <option value="12">Egg (Crate)</option>
+        </select>
+    </div>
+    <div class="select-1">
+        <h6>City A</h6>
+        <select class="form-select" aria-label="Default select example">
+        <option selected>Lagos</option>
+        <option value="1">Abuja</option>
+        <option value="2">Benin</option>
+        <option value="3">Three</option>
+        <option value="4">Enugu</option>
+        <option value="5">Ibadan</option>
+        <option value="6">Kaduna</option>
+        <option value="7">Kano</option>
+        <option value="8">Port Harcourt</option>
+        </select>
+    </div>
+    <div class="select-1">
+        <h6>City B</h6>
+        <select class="form-select" aria-label="Default select example">
+        <option selected>Lagos</option>
+        <option value="1">Abuja</option>
+        <option value="2">Benin</option>
+        <option value="3">Three</option>
+        <option value="4">Enugu</option>
+        <option value="5">Ibadan</option>
+        <option value="6">Port Harcourt</option>
+        <option value="7">Kano</option>
+        </select>
+    </div>
+    </div>
+    
+    <div class="cards">
+        <div class="card price-card h-100 border-0 rounded-6">
+
+    <div class="card-body">
+        <div class="d-flex align-items-center mb-4">
+
+            <div class="icon-box rounded-circle d-flex justify-content-center align-items-center me-3">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <div>
+                <h6 class="mb-0">Lagos</h6>
+            </div>
+
+        </div>
+
+        <div class="d-flex align-items-end mb-3">
+            <small class="text-success me-2">₦ </small>
+            <h2 class="fw-bold mb-0 me-3"> 838</h2>
+            <small class="text-success"> /50kg bag</small>
+        </div>
+
+        <div class="d-flex align-items-center">
+            <small class="ms-3 text-success">3 Reports</small>
+        </div>
+
+    </div>
+
+    </div>
+    <div class="card price-card shadow-sm h-100 border-0 rounded-6">
+
+    <div class="card-body">
+        <div class="d-flex align-items-center mb-4">
+
+            <div class="icon-box rounded-circle d-flex justify-content-center align-items-center me-3">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <div>
+                <h6 class="mb-0">Abuja</h6>
+            </div>
+
+        </div>
+
+        <div class="d-flex align-items-end mb-3">
+            <small class="text-success me-2">₦ </small>
+            <h2 class="fw-bold mb-0 me-3"> 838</h2>
+            <small class="text-success"> /50kg bag</small>
+        </div>
+
+        <div class="d-flex align-items-center">
+            <small class="ms-3 text-success">3 Reports</small>
+        </div>
+
+    </div>
+
+    </div>
+</div>
+
+
+</div>
+<section class="progress-bar mt-4 ">
+    <div class=" d-flex justify-content-between">
+        <p class="higher">Difference</p>
+        <p class="higher">-1.16</p>
+    </div>
+    <div class="progress progress-live-bar  mx-3 mt-0">
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+    <div class="d-flex justify-content-between">
+        <p class="higher">Lagos Higher</p>
+        <p class="higher">Abuja Higher</p>
+    </div>
+
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
